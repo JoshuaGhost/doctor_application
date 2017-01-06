@@ -1,0 +1,186 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Zijian} % Your first name
+\familyname{Zhang} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Mendelssohn Str. 26c}{30173 Hannover, Lower Saxony}
+\mobile{(0049) 157 3344 6323}
+\email{zhangzijian0523@gmail.com}
+\homepage{sniperstriker.github.io}{sniperstriker.github.io} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\extrainfo{additional information}
+\photo[70pt][0.4pt]{Avatar} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{"Power" means the approach to make the world better}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2015--Now}{Masters of Science}{Leibniz Universität Hannover}{Hannover, Lower Saxony, Germany}{\textit{GPA -- 1.8 (German system)}}{Informatik (Computer Science)}  % Arguments not required can be left empty
+\cventry{2014--2015}{Learning of German language}{various of language schools}{Hannover, Lower Saxony, Germany}{\textit{DSH-3 (Deutsche Sprachprüfung für den Hochschuluzugang - Stufe 3)}}{German language}
+
+\cventry{2010--2014}{Bachelor of Science}{Xidian University}{Xi\'an, Shanxi, China}{\textit{GPA -- 3.0}}{Information Security}
+
+\section{Bachelor Thesis}
+
+\cvitem{Title}{\emph{GPU accelerated Detection of communities in graph}}
+\cvitem{Supervisors}{Associate Professor Yutao Qi \& Professor Weidong Zhang}
+\cvitem{Description}{This thesis provide an approach of detecting and dividing communities in a data structure of graph, using GN algorithm with the acceleration of GPU according CUDA toolkit}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\subsection{Miscellaneous}
+
+\cventry{2016--Present}{Studentische Hilftskraft}{\textsc{Institute L3S in Germany}}{Hannover, Lower Saxony, Germany}{}{Help to find an efficient parallel way of generation several individual Word-Embedding models, instead using the whole corpora in a single batch. Help to find a method of combining individual Word-Embedding using linear algebra and neural network, where the combined model should be acceptable in accuracy
+\newline{}\newline{}
+Detailed achievements:
+\begin{itemize}
+\item Learned programming in Python 'pythonicly'
+\item Learned several machine learning algorithms, including but not limited to:
+\begin{itemize}
+\item Classification with Bayes classifier, C45 classifier and SVM
+\item Linear and nonlinear regression
+\item Clustering algorithm such as K-means, hierarchical clustering, density based clustering
+\end{itemize}
+\item Learned basis of deep learning, including bug not limited to:
+\begin{itemize}
+\item Shallow model like Restricted Boltzmann Machine, Quantum Boltzmann Machine, auto encoder, nonlinear classifier in Word-Embedding
+\end{itemize}
+\item Learned basis of information retrieval
+\item Had a beginner-level-understanding of NLP
+\end{itemize}}
+
+%------------------------------------------------
+
+\cventry{2015--2016}{Studentische Hilftskraft}{\textsc{Institut Mess- und Regelung(Institute of measuring and controlling)}}{Hannover, Lower Saxony, Germany}{}{Contributed to a doctor project about automatic detecting defect on surface of manufactures using laser. Help to build a prototype of project using C/C++, Visual C++ and Matlab}
+
+%------------------------------------------------
+
+\cventry{2013--2014}{Student Part-time job}{\textsc{School of Electronic Engineering}}{Xi'an, Shanxi, China}{}{Help to analyzing functionality of 802.11n WLAN protocol in order to enhance security on communication}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\cvitem{2012}{National 2nd Prize in The National Undergraduate Electronic Design Contest Information Security Invitational 2012}
+\cvitem{2011}{National second scholarship in Xidian University}
+\cvitem{2009}{Second Prize in NOIP (National Olympiad in informatics in Provinces) 2009}
+\cvitem{2008}{Second Prize in NOIP 2008}
+\cvitem{2007}{Second Prize in NOIP 2007}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{Programming}{C/C++, Python, Java, Pascal, Matlab, GNU Bash}
+\cvitem{System}{GNU/Linux including daily management and kernel programming}
+\cvitem{Theory}{Algorithms in graph, Dynamic Programming, Number Theory, Machine learning, Deep Learning, Quantum Mechanic basis}
+\cvitem{Front-end}{Matlab GUI Tookit, QT}
+\cvitem{Web}{HTML5, CSS3, ECMAScript}
+\cvitem{Security}{Reverse Engineering on x86, Cryptography basis, Penetration Testing basis}
+\cvitem{Others}{CUDA, Functional Programming, Repair of Imported Printer}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Chinese}{Mothertongue}{}
+\cvitemwithcomment{English}{Intermediate}{Conversationally fluent}
+\cvitemwithcomment{German}{Intermediate}{Conversationally fluent}
+\cvitemwithcomment{Japanese}{Basic}{Basic words and phrases only}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Reading}{Chinese Flute}
+\cvlistdoubleitem{Solving logic puzzles}{Chinese martial art}
+\cvlistdoubleitem{Fitness}{Philosophy}
+\cvlistdoubleitem{History}{Forensic Science and Criminology}
+\cvlistitem{Running}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+% \clearpage
+
+% \recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+% \date{\today} % Letter date
+% \opening{Dear Sir or Madam,} % Opening greeting
+% \closing{Sincerely yours,} % Closing phrase
+% \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+% \makelettertitle % Print letter title
+
+% \lipsum[1-3] % Dummy text
+
+% \makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
